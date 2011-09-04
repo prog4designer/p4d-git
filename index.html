@@ -4,17 +4,35 @@
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <title>WebデザイナーのためのGit勉強会参加者一覧</title>
     <link href="stylesheets/style.css" rel="stylesheet" type="text/css">
+    <link href="favicon.ico" rel="shortcut icon" />
+    <script charset="UTF-8" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+    <script charset="UTF-8" src="javascripts/jquery.easing.1.3.js" type="text/javascript"></script>
+    <script charset="UTF-8" src="javascripts/jquery.vgrid.0.1.6.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      //<![CDATA[
+        //
+        $(function(){
+            $("#grid-content").vgrid();
+        });
+        //
+      //]]>
+    </script>
   </head>
   <body>
-    <header></header>
-    <h1>WebデザイナーのためのGit勉強会参加者一覧</h1>
-    <ul class="members">
+    <header>
+      <p class="image">
+        <img alt="octcat" height="163" src="images/octcat.png" width="185">
+      </p>
+      <h1>WebデザイナーのためのGit勉強会参加者一覧</h1>
+    </header>
+    <ul class="members" id="grid-content">
+
+      <!-- machida -->
       <li class="member">
         <h2 class="name">machida</h2>
         <div class="introduction">
           <p>合同会社フィヨルドのデザイナ。只今、Rubyで出来たCMS、Lokkaを使ったサイト構築案件募集中。Lokka以外も。あと、個人的な趣味でgithubにあるOSSにデザインを入れてpushするっていうのをやりたいので、デザインが欲しいOSS情報も募集中。 好きな漫画家：根本敬、漫★画太郎、岡田あーみん。</p>
         </div>
-        <!-- .text -->
         <dl>
           <dt class="github">Github</dt>
           <dd class="github">
@@ -33,14 +51,15 @@
             <a href="http://www.facebook.com/teppeimachida" target="_blank">Facebook</a>
           </dd>
         </dl>
-        
-        <!-- 松本(@shu_0115) -->
-        <br />
+      </li>
+      <!-- machidaここまで -->
+      
+      <!-- 松本(@shu_0115) -->
+      <li class="member">
         <h2 class="name">shu_0115</h2>
         <div class="introduction">
           <p>1985.1.15。♂。Webプログラマ。フリーランス。Ruby。Rails。サッカー。フットサル。音楽。映画。スポーツ。マンガ。アニメ。ボカロ。小説。</p>
         </div>
-        <!-- .text -->
         <dl>
           <dt class="github">Github</dt>
           <dd class="github">
@@ -60,13 +79,15 @@
           </dd>
         </dl>
       </li>
-      <!-- .member -->
+      <!-- 松本(@shu_0115)ここまで -->
+
+      <!-- tyabe -->
       <li class="member">
         <h2 class="name">tyabe</h2>
         <div class="introduction">
-          <p>Ruby/Rails/JavaScript/Git/Vim/CoffeeScript/node/mongoDB/Herokuに興味津々なWEBデベロッパ TDD/TiDDしたいけどいまいちちゃんと出来ないRedmineちゃんと使いたい Ruby技術者(Silver)</p>
+          <p><span class="break">Ruby/Rails/JavaScript/Git/Vim/CoffeeScript/node/mongoDB/Heroku</span>に興味津々なWEBデベロッパ TDD/TiDDしたいけどいまいちちゃんと出来ないRedmineちゃんと使いたい Ruby技術者(Silver)
+          </p>
         </div>
-        <!-- .text -->
         <dl>
           <dt class="github">Github</dt>
           <dd class="github">
@@ -82,13 +103,14 @@
           </dd>
         </dl>
       </li>
-      <!-- .member -->
+      <!-- tyabeここまで -->
+      
+      <!-- satococoa -->
       <li class="member">
         <h2 class="name">satococoa</h2>
         <div class="introduction">
           <p>ruby, JavaScriptをメインにプログラマをしています。スマートフォン向けのサービスを開発する会社に転職しました。</p>
         </div>
-        <!-- .text -->
         <dl>
           <dt class="github">Github</dt>
           <dd class="github">
@@ -108,7 +130,11 @@
           </dd>
         </dl>
       </li>
-      <!-- .member -->
+      <!-- satococoaここまで -->
+
     </ul>
+    <footer>
+      <p class="copyright">2011年09月11日 WebデザイナーのためのGit勉強会</p>
+    </footer>
   </body>
 </html>
