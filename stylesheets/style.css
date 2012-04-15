@@ -43,6 +43,16 @@ a {
   font-size: 100%;
   vertical-align: baseline;
   background: transparent;
+  color:#DE428B;
+}
+
+a:link,
+a:visited{
+text-decoration:none;
+}
+a:hover,
+a:active{
+text-decoration:underline;
 }
 
 ins {
